@@ -1,0 +1,40 @@
+Arguments: 
+  /home/mo/.nvm/versions/node/v12.18.4/bin/node /usr/share/yarn/bin/yarn.js add typescript ts-node-dev express @types/express @types/node
+
+PATH: 
+  /home/mo/.nvm/versions/node/v12.18.4/bin:/home/mo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/opt/yarn-[version]/bin:/usr/local/go/bin://home/mo/go/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.almundo.com/typescript: ETIMEDOUT
+      at Timeout._onTimeout (/usr/share/yarn/lib/cli.js:141409:19)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

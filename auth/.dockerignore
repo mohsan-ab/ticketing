@@ -1,0 +1,27 @@
+# git (important)
+.git
+.gitignore
+.gitattributes
+# node_modules
+node_modules
+# DIR
+acc
+coverage
+kubernetes
+tmp
+
+.eslintrc
+.editorconfig
+commit.sh
+Dockerfile
+feature.sh
+hotfix.sh
+Makefile
+Jenkinsfile
+jest.config.js
+jest.setup.js
+pipeline.json
+postcss.config.js
+README.md
+sonar-project.properties
+tslint.json
